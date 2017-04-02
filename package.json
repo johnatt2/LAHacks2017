@@ -1,11 +1,30 @@
 {
-  "name": "starter-node-angular",
-  "main": "server.js",
+  "name": "godaddy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sunseth/gd.git"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express" : "~4.5.1",
-	"mongoose" : "~4.4",
-	"body-parser" : "~1.4.2",
-	"method-override" : "~2.0.2"
+    "async": "^0.9.0",
+    "body-parser": "^1.13.3",
+    "compression": "^1.5.2",
+    "cookie-parser": "^1.3.5",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.7.2",
+    "express-session": "^1.11.3",
+    "extend": "~3.0.0",
+    "formidable": "^1.0.17",
+    "lodash": "^3.10.0",
+    "moment": "^2.8.3",
+    "mongoose": "~4.0.8",
+    "multer": "^1.0.3"
   }
 }
-
